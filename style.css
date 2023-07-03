@@ -31,6 +31,7 @@ ul.nav{
   justify-content: center;
   align-items: center;
   justify-self: center;
+    flex-direction:column;
 }
 
 .home-section.container{
