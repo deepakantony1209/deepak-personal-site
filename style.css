@@ -1,0 +1,143 @@
+body{
+font-family: 'Libre Baskerville', serif;
+background-color: #F8E5EE;
+height: 100%;
+padding: 0;
+margin: 0;
+}
+
+.navigation.container{
+    background-color: #F8E5EE;
+}
+.nav{
+    position: fixed;
+}
+.nav-link{
+    color: #7B0D1E;
+}
+
+ul.nav{
+    background-color: #F8E5EE;
+    padding: 1rem 2rem 1rem 2rem ;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #9F2042;
+}
+
+
+.home-section{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.home-section.container{
+    margin: auto;
+}
+.title{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.role{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  padding: 10rem;
+  grid-template-columns: repeat(2, 1fr); /* Create 2 columns with equal width */
+  grid-gap: 20px; /* Optional: Add gap between grid items */
+  height: 200vh;
+}
+.img{
+    text-align: center;
+    justify-self: center;
+    margin: auto;
+}
+
+.grid-item.special{
+        background-color: #9F2042;
+        width: 100%;
+        padding: 2rem;
+}
+
+img{
+    width: 450px;
+    height: auto;
+}
+
+.profile-picture {
+    position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 50%;
+  margin-left: 30% ;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: auto;
+
+}
+
+.profile-picture-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio {
+display: flex;
+flex-direction: column;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: justify;
+  font-family: 'Comfortaa', cursive;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio h2{
+    font-family: 'Abril Fatface', cursive;
+    text-align: right;
+    font-size: 3rem;
+}
+
+.fs-2{
+    color: #9F2042;
+    font-weight: bold;
+}
+
+.pb-2{
+font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+}
+@media (max-width: 1033px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr); /* Change to single column layout */
+  }
+  .about-me{
+    flex-direction: column-reverse;
+  }
+
+  #hanging-icons{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+  }
+  .text-muted{
+    text-align: center;
+  }
+}
